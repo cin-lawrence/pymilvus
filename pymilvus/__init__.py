@@ -67,6 +67,7 @@ from .orm.utility import (
     wait_for_index_building_complete,
     wait_for_loading_complete,
 )
+from .asyncio.milvus_client import MilvusClient as AsyncMilvusClient
 
 # Compatiable
 from .settings import Config as DefaultConfig
